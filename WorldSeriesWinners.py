@@ -22,8 +22,6 @@ for display in infile:
         display_year = int(input("Choose a year that you would like to show:"))
     else:
         for words in infile:
-            #words.rstrip("\n")  
-            #word.append(words.replace("\n", ""))
             dict2[year] = words
             year += 1
 
