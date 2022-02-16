@@ -16,8 +16,10 @@ year = 1904
 for display in infile:
     if display_year < 1904:
         print("Choose a number between 1904 and 2009")
+        display_year = int(input("Choose a year that you would like to show:"))
     elif display_year > 2009:
         print("Choose a number between 1904 and 2009")
+        display_year = int(input("Choose a year that you would like to show:"))
     else:
         for words in infile:
             #words.rstrip("\n")  
